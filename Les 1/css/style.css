@@ -1,0 +1,30 @@
+.parent {
+  width: 500px;
+  margin: auto;
+  border: 1px red solid;
+  border-radius: 25px;
+  text-align: center;
+}
+.child {
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  position: relative;
+
+}
+.one{
+    background-color: rgb(47, 165, 197);
+    position: absolute;
+    top: 50px;
+}
+.two{
+    background-color: aquamarine;
+
+}
+.three{
+    background-color: aqua;
+}
+.four{
+    background-color: rgb(30, 172, 124);
+}

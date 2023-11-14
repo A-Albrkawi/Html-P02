@@ -1,0 +1,19 @@
+aside {
+  background-color: rgba(200, 100, 100, 0.5);
+  block-size: 400px;
+  overflow: auto;
+  padding: 0 lem;
+  inline-size: 300px;
+}
+h2 {
+  background-color: rgb(200, 100, 100);
+  margin: 0;
+  position: sticky;
+  inset-block-start: 0;
+}
+article {
+  margin-block-start: 2em;
+}
+article:last-of-type {
+  margin-block-end: 100vh;
+}
